@@ -111,3 +111,6 @@ Look at following 2 examples.
 There are few functions that Js supports that are taken from functional programming approach.
 
 These are Map, Reduce, Filter, etc.
+<sup>Map    : [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map]</sup>
+<sup>Reduce : [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce]</sup>
+<sup>Filter : [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter]</sup>
