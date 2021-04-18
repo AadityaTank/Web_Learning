@@ -1,8 +1,8 @@
-### Semicolons
+## Semicolons
 They are optional in js
 
 ---
-### function as a variable
+## function as a variable
 
 In Js functions can be stored in variable like any other values, and can be invoked using parathesis on those variables
 e.g.
@@ -31,7 +31,7 @@ Lastly if you don't want to name the function can call it or call the function a
 These are the important concepts to understand first to be able to understand the patten of clousure which is derivative of these.
 
 ---
-### Closures
+## Closures
 A closure is ability of function to remember its surrounding.
 e.g.
 
@@ -59,7 +59,7 @@ Note: "remember" simply means that every time a function is returned a new copy 
 Now a more formal defination will be : A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 
 ---
-### Arrow Functions
+## Arrow Functions
 Arrow functions are new way (syntax) of declaring functions in js. Example below.
 
     let a = () => {
@@ -68,10 +68,10 @@ Arrow functions are new way (syntax) of declaring functions in js. Example below
     a() // logs "Hello there!"
 
 But their peculiarities are not limited to syntax. They also have slightly different behaviours than normal function in few specific contexts.
-### TBC
+## TBC
 
 ---
-### Destructuring
+## Destructuring
 It is used to assign multiple variables at once, or selectively cherry pick values that are required from object (used generally in liberaries and functions). This is a reletively new notion that many of the languages are now supporting including Js.
 
 e.g
@@ -81,12 +81,12 @@ e.g
       const {y} = {x:5, y:3, z:20, l:55} // Only y value is fetched i.e. 3.
 
 ---
-### Spread operator
+## Spread operator
 It is used to spread out all the elements in an array or object. Say you want to pass each element of an array as parameter to function.
 This operator is commonly used when you want to add or update a perticular value but are obliious to what an array or object already has.
 Look at following 2 examples.
 
-#### 1.
+### 1.
 
     function sum(x, y, z) {
         return x + y + z;
@@ -95,19 +95,19 @@ Look at following 2 examples.
     const numbers = [1, 2, 3];
 
     console.log(sum(...numbers));   // spreading all the numbers to be x, y, z
-#### 2.
+### 2.
 
     let arr1 = [0, 1, 2];
     let arr2 = [3, 4, 5];
 
     arr1 = [...arr2, ...arr1];      // spreading numbers as input to new array
     //  arr1 is now [3, 4, 5, 0, 1, 2]
-#### 3. 
+### 3. 
 
 <sup>Find more at : [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax]</sup>
 
 ---
-### Functional programming approach
+## Functional programming approach
 There are few functions that Js supports that are taken from functional programming approach.
 
 These are Map, Reduce, Filter, etc.
